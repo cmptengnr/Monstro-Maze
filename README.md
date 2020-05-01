@@ -1,1 +1,1 @@
-Franken Maze
+Monstro Maze
