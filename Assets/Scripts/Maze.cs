@@ -1,6 +1,6 @@
-﻿using System.Collections;
+﻿using UnityEngine;
+using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 
 public class Maze : MonoBehaviour
 {
@@ -33,12 +33,12 @@ public class Maze : MonoBehaviour
         return cells[coordinates.x, coordinates.z];
     }
 
-    public void DoFirstGenerationStep(List<MazeCell> activeCells)
+    private void DoFirstGenerationStep(List<MazeCell> activeCells)
     {
         activeCells.Add(CreateCell(RandomCoordinates));   
     }
 
-    public void DoNextGenerationStep(List<MazeCell> activeCells)
+    private void DoNextGenerationStep(List<MazeCell> activeCells)
     {
         int currentIndex = activeCells.Count - 1;
         MazeCell currentCell = activeCells[currentIndex];
@@ -59,7 +59,7 @@ public class Maze : MonoBehaviour
         cells = new MazeCell[size.x, size.z];
         List<MazeCell> activeCells = new List<MazeCell>();
         IntVector2 coordinates = RandomCoordinates;
-        // while (ContainsCoordinates(coordinates) && GetCell(coordinates) == null)
+        //while (ContainsCoordinates(coordinates) && GetCell(coordinates) == null)
         DoFirstGenerationStep(activeCells);
         while (activeCells.Count > 0)
         {
