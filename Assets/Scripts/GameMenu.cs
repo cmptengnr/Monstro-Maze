@@ -16,7 +16,7 @@ public class GameMenu : MonoBehaviour
 
     public void SetVolume(float volume)
     {
-        volumeText.text = "Volume : " + audioMixer;
+        volumeText.Text = "Volume : " + audioMixer;
     }
 
     public void SetFullScreen(Boolean isFullScreen)
