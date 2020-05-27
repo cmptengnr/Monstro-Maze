@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 07e1ce15c101fa04ebe0181f534ae7d8, type: 3}
-  m_Name: sword
+  m_Name: Torch
   m_EditorClassIdentifier: 
   itemName: 
-  icon: {fileID: 21300000, guid: 7a11256016a397745974841cdfaec26e, type: 3}
-  Strength: 10
+  icon: {fileID: 21300000, guid: 8ccc466cf0aa59e48b05849c400535f1, type: 3}
+  Strength: 0
   Health: 0
   Keys: 0
-  EquipmentType: 0
+  EquipmentType: 1
