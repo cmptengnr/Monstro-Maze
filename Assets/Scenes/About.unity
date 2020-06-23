@@ -155,8 +155,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 74, y: 171}
-  m_SizeDelta: {x: 700, y: 400}
+  m_AnchoredPosition: {x: -11, y: 176}
+  m_SizeDelta: {x: 900, y: 400}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &218903420
 MonoBehaviour:
@@ -178,23 +178,25 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: a5703108c79c0b84d90bbc746c4af092, type: 3}
+    m_Font: {fileID: 12800000, guid: 8a26c9cd32d483f42b83d86d78689410, type: 3}
     m_FontSize: 16
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 0
+    m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: "\u2022 Cam Talaboc\n\u2022 Carl Gosnell\n\u2022 Justin Lee\n\u2022 Miracle
-    Pule\n\u2022 Peifen Lu\n\nAttributions:\n\nMusic: \n\t\u2022 Music by: Alexander
-    Nakarada from https://freepd.com/horror.php\n\nAssets:\n\t\u2022  Font: Zombie
-    by RotoDesign - https://www.dafont.com/rotodesign.d79\n\t\u2022  Background:
-    Made by Carl using Canva.com\n\t\u2022  Unity Store Assets: \n"
+    Pule\n\u2022 Peifen Lu\n\n\nAttributions\n\n______________Music______________\n\n\u2022
+    Music by: Alexander Nakarada from freepd.com/horror.php\n\n______________Assets______________\n\n\u2022 
+    Fonts: \n\nZombie by RotoDesign - dafont.com/rotodesign.d79\nZombie_2 by Mr Letters:
+    dafont.com/zombie-2.font\n\n\u2022  Background: Made by Carl using Canva.com\n\n\u2022
+    Monster Orc: assetstore.unity.com/packages/3d/characters/humanoids/monster-orc-146616\n\n\u2022
+    Player Character: element3ds.com/thread-98493-1-1.html\n"
 --- !u!222 &218903421
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -240,7 +242,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.30004883, y: -165.99997}
+  m_AnchoredPosition: {x: -0.30004883, y: -115}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &230032513
