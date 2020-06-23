@@ -14,10 +14,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Setting.unity
     guid: d99296607ebaabb4d98d53f87a45fe02
-  - enabled: 1
-    path: Assets/Scenes/About.unity
-    guid: 8e00422d7de02e242b00db0c4ad17608
-  - enabled: 1
-    path: Assets/Scenes/Maze_TopDown.unity
-    guid: 243b0249888aa4d4994144728be516fb
   m_configObjects: {}
