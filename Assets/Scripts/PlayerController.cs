@@ -8,7 +8,7 @@ public class PlayerController : MonoBehaviour
     private float currentHp = 0;
     public float maxHp = 100f;
 
-    public float moveSpeed = 1;
+    public float Speed = 1;
 
     public string horizontal = "Horizontal";
     public string vertical = "Vertical";
@@ -31,25 +31,9 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        float h = Input.GetAxis(horizontal);
-        float v = Input.GetAxis(vertical);
-        Vector3 vec;
-        if (switchHV) vec = new Vector3(v, 0, h);
-        else vec = new Vector3(h, 0, v);
+        PlayerMovement();
 
-        if (h == 0 && v == 0)
-        {
-            animator.SetBool(speedParameter, false);
-        }
-        else
-        {
-            animator.SetBool(speedParameter, true);
-        }
-        transform.position += vec * moveSpeed * Time.deltaTime;
-        if (vec != Vector3.zero)
-        {
-            transform.LookAt(transform.position + vec, Vector3.up);
-        }
+        
     }
     public void EatApple(float addHp)
     {
@@ -79,6 +63,15 @@ public class PlayerController : MonoBehaviour
     {
         currentHp -= damage;
         SetHp();
+    }
+
+    void PlayerMovement()
+    {
+        float h = Input.GetAxis("Horizontal");
+        float v = Input.GetAxis("Vertical");
+        Vector3 playerMovement = new Vector3(h, 0f, v) * Speed * Time.deltaTime;
+        transform.Translate(playerMovement, Space.Self);
+
     }
 
 }
