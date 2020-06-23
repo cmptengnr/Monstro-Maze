@@ -14,4 +14,11 @@ public class UIManager : MonoBehaviour
     {
         SceneManager.LoadScene("Setting");
     }
+
+    public void BackToMenuButton()
+    {
+        SceneManager.LoadScene("MenuScene");
+    }
 }
+
+
